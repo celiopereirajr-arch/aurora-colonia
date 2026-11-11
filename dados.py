@@ -1,5 +1,4 @@
 # dados.py
-# Desenvolvido com apoio da ferramenta de IA Claude (ver declaração no README).
 # Guarda e organiza os dados da colônia Aurora Siger.
 # Aqui só existem dados e funções de leitura. Nenhuma decisão é tomada.
 

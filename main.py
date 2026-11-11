@@ -1,5 +1,4 @@
 # main.py
-# Desenvolvido com apoio da ferramenta de IA Claude (ver declaração no README).
 # Ponto de entrada do sistema da colônia Aurora Siger.
 # Junta os dados (dados.py), as decisões (decisoes.py) e a previsão (previsao.py).
 # Para rodar: python main.py

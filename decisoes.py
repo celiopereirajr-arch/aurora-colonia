@@ -1,5 +1,4 @@
 # decisoes.py
-# Desenvolvido com apoio da ferramenta de IA Claude (ver declaração no README).
 # Regras de decisão da colônia. Recebe números, devolve uma decisão clara.
 # Aqui não há dados guardados nem contas de previsão.
 

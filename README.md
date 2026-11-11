@@ -9,17 +9,17 @@ O sistema organiza os dados da colônia em Marte, decide automaticamente o que f
 Precisa apenas do Python 3 instalado.
 
 ```
-python main.py
+python projeto/codigos/main.py
 ```
 
 ## Como o sistema funciona
 
 O programa lê os dados da colônia, prevê a energia eólica, decide a ação e mostra o resultado. Cada etapa fica em um arquivo:
 
-- `dados.py`: guarda os dados. Dicionários dentro de dicionários formam a hierarquia (sistema energético com solar, eólico e baterias; sistema ambiental; módulos operacionais). Listas guardam o histórico de vento e de energia.  
-- `decisoes.py`: as regras de decisão, escritas com `if`, `elif` e `else`, da situação mais grave para a menos grave.  
-- `previsao.py`: a regressão linear simples feita à mão (método dos mínimos quadrados), que estima a energia eólica a partir do vento.  
-- `main.py`: junta tudo. É o único arquivo que se executa.
+- `projeto/codigos/dados.py`: guarda os dados. Dicionários dentro de dicionários formam a hierarquia (sistema energético com solar, eólico e baterias; sistema ambiental; módulos operacionais). Listas guardam o histórico de vento e de energia.  
+- `projeto/codigos/decisoes.py`: as regras de decisão, escritas com `if`, `elif` e `else`, da situação mais grave para a menos grave.  
+- `projeto/codigos/previsao.py`: a regressão linear simples feita à mão (método dos mínimos quadrados), que estima a energia eólica a partir do vento.  
+- `projeto/codigos/main.py`: junta tudo. É o único arquivo que se executa.
 
 ### Regras de decisão
 
@@ -55,7 +55,7 @@ vento 11                 ->  energia prevista 27.5
 
 Execução completa:
 
-![Execução do sistema](execucao.png)
+![Execução do sistema](projeto/execucao.png)
 
 ## Limites conhecidos
 

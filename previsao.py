@@ -1,5 +1,4 @@
 # previsao.py
-# Desenvolvido com apoio da ferramenta de IA Claude (ver declaração no README).
 # Modelo de previsão da colônia: regressão linear simples feita à mão
 # (método dos mínimos quadrados, como no capítulo 7).
 # Aqui só há contas de previsão. Nenhuma decisão é tomada.
